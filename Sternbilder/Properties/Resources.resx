@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Allerland" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Allerland.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Allerland_Linie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Allerland Linie.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="angebissener_Pilz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\angebissener Pilz.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="angebissener_Pilz_Linie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\angebissener Pilz Linie.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bauer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bauer.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bauer_Linie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bauer Linie.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="betrunkener_Wächter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\betrunkener Wächter.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="betrunkener_Wächter_Linie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\betrunkener Wächter Linie.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blume_der_Nacht" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blume der Nacht.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blume_der_Nacht_Linie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blume der Nacht Linie.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Feenstab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Feenstab.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Feenstab_Linie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Feenstab Linie.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Feger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Feger.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Feger_Linie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Feger Linie.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flasche" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flasche.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Flasche_Linie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flasche Linie.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fuchs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fuchs.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fuchs_Linie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fuchs Linie.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="geschlossenes_Tor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\geschlossenes Tor.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="geschlossenes_Tor_Linie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\geschlossenes Tor Linie.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Huhn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Huhn.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Huhn_Linie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Huhn Linie.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Milchstrasse_Cen_Sag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Milchstrasse_Cen-Sag.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mond" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mond.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mond_von_der_Seite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mond_von_der_Seite.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="offenes_Tor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\offenes Tor.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="offenes_Tor_Linie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\offenes Tor Linie.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pilz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pilz.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pilz_Linie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pilz Linie.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Regenwolke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\regenwolke.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sanduhr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sanduhr.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sanduhr_Linie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sanduhr Linie.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="satter_Fuchs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\satter Fuchs.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="satter_Fuchs_Linie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\satter Fuchs Linie.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Steinsberg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Steinsberg.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Steinsberg_Linie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Steinsberg Linie.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Steinsbergwappenicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Steinsbergwappenicon.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stern1_Rot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stern1 Rot.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stern2_Gelb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stern2 Gelb.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stern3_Grün" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stern3 Grün.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stern4_Blau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stern4 Blau.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sterne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sterne.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thaskar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thaskar.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thaskar_Linie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thaskar Linie.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tod" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tod.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tod_Linie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tod Linie.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toter_Bauer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toter Bauer.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toter_Bauer_Linie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toter Bauer Linie.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toter_Fuchs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toter Fuchs.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toter_Fuchs_Linie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toter Fuchs Linie.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="totes_Huhn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\totes Huhn.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="totes_Huhn_Linie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\totes Huhn Linie.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Turm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Turm.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Turm_Linie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Turm Linie.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wächter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wächter.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wächter_Linie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wächter Linie.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wilde_Jagd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wilde Jagd.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wilde_Jagd_Linie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wilde Jagd Linie.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wolke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wolke.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wolke1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wolke1.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wolke2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wolke2.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wolke3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wolke3.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zauberlehrling" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zauberlehrling.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zauberlehrling_Linie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zauberlehrling Linie.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zipferlake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zipferlake.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zipferlake_Linie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zipferlake Linie.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

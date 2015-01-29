@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A2762D9E-13F3-4AED-8717-7B235CC4CF50}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sternbilder</RootNamespace>
+    <AssemblyName>Sternbilder</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Anzeige.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anzeige.Designer.cs">
+      <DependentUpon>Anzeige.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sternbilder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sternbilder.Designer.cs">
+      <DependentUpon>Sternbilder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Anzeige.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Anzeige.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sternbilder.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Sternbilder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wolke.GIF" />
+    <None Include="Resources\Wächter Linie.GIF" />
+    <None Include="Resources\offenes Tor.GIF" />
+    <None Include="Resources\offenes Tor Linie.GIF" />
+    <None Include="Resources\Feenstab Linie.GIF" />
+    <None Include="Resources\Feenstab.GIF" />
+    <None Include="Resources\betrunkener Wächter.GIF" />
+    <None Include="Resources\betrunkener Wächter Linie.GIF" />
+    <None Include="Resources\angebissener Pilz Linie.GIF" />
+    <None Include="Resources\bauer.GIF" />
+    <None Include="Resources\bauer Linie.GIF" />
+    <None Include="Resources\angebissener Pilz.GIF" />
+    <None Include="Resources\geschlossenes Tor Linie.GIF" />
+    <None Include="Resources\Flasche.GIF" />
+    <None Include="Resources\Flasche Linie.GIF" />
+    <None Include="Resources\Feger Linie.GIF" />
+    <None Include="Resources\Feger.GIF" />
+    <None Include="Resources\Wächter.GIF" />
+    <None Include="Resources\geschlossenes Tor.GIF" />
+    <None Include="Resources\Milchstrasse_Cen-Sag.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mond.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mond_von_der_Seite.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fuchs.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\totes Huhn.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\totes Huhn Linie.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wilde Jagd Linie.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wilde Jagd.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blume der Nacht Linie.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blume der Nacht.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\satter Fuchs Linie.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\satter Fuchs.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toter Bauer Linie.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toter Bauer.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toter Fuchs Linie.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toter Fuchs.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fuchs Linie.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zauberlehrling Linie.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zauberlehrling.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Huhn Linie.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Huhn.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pilz Linie.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pilz.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Turm Linie.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Turm.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allerland.GIF" />
+    <None Include="Resources\Allerland Linie.GIF" />
+    <None Include="Resources\Image1.bmp" />
+    <Content Include="Resources\Regenwolke.PNG" />
+    <None Include="Resources\Sterne.ico" />
+    <None Include="Resources\Steinsbergwappenicon.ico" />
+    <None Include="Resources\Sanduhr.gif" />
+    <None Include="Resources\Sanduhr Linie.gif" />
+    <None Include="Resources\Wolke2.GIF" />
+    <None Include="Resources\Wolke1.GIF" />
+    <None Include="Resources\Wolke3.GIF" />
+    <None Include="Resources\Stern2 Gelb.GIF" />
+    <None Include="Resources\Stern1 Rot.GIF" />
+    <None Include="Resources\Stern4 Blau.GIF" />
+    <None Include="Resources\Stern3 Grün.GIF" />
+    <None Include="Resources\Thaskar Linie.GIF" />
+    <None Include="Resources\Steinsberg Linie.GIF" />
+    <None Include="Resources\Thaskar.GIF" />
+    <None Include="Resources\Steinsberg.GIF" />
+    <None Include="Resources\Zipferlake Linie.GIF" />
+    <None Include="Resources\Zipferlake.GIF" />
+    <None Include="Resources\Tod.GIF" />
+    <None Include="Resources\Tod Linie.GIF" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
